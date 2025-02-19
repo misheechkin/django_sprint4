@@ -26,12 +26,13 @@ SECRET_KEY = 'django-insecure-sv$!l^ly@*aj*a59_nmsxl-q%k(x^1$g&d@x#kw5=^3qzfm1d=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = ['*']
 
-# ALLOWED_HOSTS = [
-#     'www.vilmen.pythonanywhere.com',
-#     'vilmen.pythonanywhere.com',
-# ]
+ALLOWED_HOSTS = [
+    'www.vilmen.pythonanywhere.com',
+    'vilmen.pythonanywhere.com',
+    '127.0.0.1'
+]
 
 
 # Application definition
